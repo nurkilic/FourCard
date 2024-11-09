@@ -1,0 +1,34 @@
+
+:root {
+  font-family: var(--font-family);
+ 
+
+  /* Primary Colors */
+  --color-primary-red: hsl(0, 78%, 62%);
+  --color-primary-cyan: hsl(180, 62%, 55%);
+  --color-primary-orange: hsl(34, 97%, 64%);
+  --color-primary-blue: hsl(212, 86%, 64%);
+
+  /* Neutral Colors */
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  --very-light-gray: hsl(0, 0%, 98%);
+
+  /* Typography */
+  --font-body-size: 15px;
+  --font-family: "Poppins", sans-serif;
+  --font-weight-light: 200;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+}
+
+img {
+  width: 45px;
+  height: 45px;
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
